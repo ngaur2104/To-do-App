@@ -22,6 +22,7 @@ header {
 header h1 {
     font-size: 3 rem;
     font-weight: 300;
+    text-align: center;
     color: #808080;
     margin-bottom: 1rem;
 }
@@ -33,10 +34,16 @@ input, button {
     background: none;
 }
 
+#heading2 {
+    text-align: center;
+}
+
 #taskInput {
-    flex: 1 1 0%;
+    margin-left: 9rem;
     background-color: #1F2937;
     padding: 1rem;
+    width: 30rem;
+    
     border-radius: 1rem;
     margin-right: 1rem;
     color:#EEE ;
@@ -46,6 +53,7 @@ input, button {
 #taskInput::placeholder{
     color: #808080;
     font-size: 1.05rem;
+    text-align: center;
 }
 
 #taskSubmit {
